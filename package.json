@@ -1,12 +1,12 @@
 {
   "dependencies": {
+    "fastify": "^4.11.0",
     "node": "^19.4.0"
   },
   "name": "nwl_setup_1",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
