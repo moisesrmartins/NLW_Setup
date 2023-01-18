@@ -1,4 +1,4 @@
-import "./Habit.css"
+//import "./Habit.css"
 
 interface HabitProps {
     completed: number
@@ -6,6 +6,6 @@ interface HabitProps {
 
 export function Habit(props: HabitProps) {
     return (
-        <p className="habit">Habit {props.completed}</p>
+        <p className="bg-zinc-900 w-10 h-10 text-white rounded m-2 text-center flex items-center justify-center">Habit {props.completed}</p>
     )
 }
